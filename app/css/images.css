@@ -1,0 +1,33 @@
+.image {
+    width: 200px;
+    height: 260px;
+    border: black solid 2px;
+    display: inline-block;
+    margin: 20px 0 20px 20px;
+    border-radius: 15px;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.image .interest {
+    border-top: grey solid 1px;
+}
+
+.interest img {
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 25px;
+    height: 25px;
+}
+.interest img:first-child {
+    background-color: green;
+}
+
+.interest img:nth-child(3) {
+    background-color: red;
+}

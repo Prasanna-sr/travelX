@@ -17,13 +17,14 @@ class PlacesList extends React.Component {
        let placesDetails;
        let list;
        if(this.state.placesDetails) {
-            placesDetails = this.state.placesDetails.HotelInfoList.HotelInfo.slice(0,5);
+            placesDetails = this.state.placesDetails.HotelInfoList.HotelInfo.slice(0,4);
           list = placesDetails.map(function(details) {
              return (<ImageItem details={details}/>);
           });
        }
 
       return (
+
           <div className="imageList">
               <ul>
                   {list}

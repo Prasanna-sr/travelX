@@ -7,7 +7,6 @@ function getAllHotels(callback) {
          type: 'GET',
          url: url,
          success: function(data) {
-             console.log(data);
             callback(data);
          }
       });

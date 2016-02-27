@@ -10,9 +10,7 @@ class PlacesList extends React.Component {
     componentDidMount() {
         var that = this;
         getAllHotels(function(data) {
-            // if (that.isMounted()) {
             that.setState({placesDetails: data});
-        //  }
         });
     }
    render() {
@@ -20,11 +18,9 @@ class PlacesList extends React.Component {
        let list;
        if(this.state.placesDetails) {
             placesDetails = this.state.placesDetails.HotelInfoList.HotelInfo.slice(0,5);
-           console.log(placesDetails);
           list = placesDetails.map(function(details) {
              return (<ImageItem details={details}/>);
           });
-          console.log(list);
        }
 
       return (

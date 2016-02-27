@@ -1,7 +1,32 @@
 .image {
     width: 200px;
-    height: 250px;
-    border: red solid 2px;
+    height: 260px;
+    border: black solid 2px;
     display: inline-block;
     margin: 25px 0 25px 25px;
+    border-radius: 15px;
+}
+
+
+.image img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.image .interest {
+    border-top: grey solid 1px;
+}
+
+/*.interest span:first-child {
+    border: 1px solid red;
+}*/
+
+.interest {
+    background-image: url("../images/like-dislike.jpg");
+    background-position: left center;
+    background-size: 90px 40px;
+    width: 50px;
+    height: 50px;
 }

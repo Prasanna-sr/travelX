@@ -1,0 +1,7 @@
+.image {
+    width: 200px;
+    height: 250px;
+    border: red solid 2px;
+    display: inline-block;
+    margin: 25px 0 25px 25px;
+}

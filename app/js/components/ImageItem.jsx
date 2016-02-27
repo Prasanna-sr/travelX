@@ -11,7 +11,8 @@ class ImageItem extends React.Component {
           <img src={newImageUrl}/>
           <div className="name">{details.Name}</div>
                 <div className="interest">
-
+                    <img className="up" src="/images/Thumbs-Up.png"></img>
+                    <img  className="down" src="/images/Thumbs-Down.png"></img>
                 </div>
           </li>
       )

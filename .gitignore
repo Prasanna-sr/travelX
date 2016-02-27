@@ -4,4 +4,5 @@ npm-debug.log
 .idea
 app/bundle.js
 public/build
+app/js/build/bundle.js
 .git

@@ -1,33 +1,41 @@
-.statusPanel {
-    /*background-color: white;*/
+.titleHeader h2 {
     display: inline-block;
-    /*padding: 10px 10px 10px 10px;*/
+}
+
+.statusPanel {
+    display: inline-block;
     margin-bottom: 40px;
-    margin-left: 80%;
-    /*float: right;*/
+    margin-left: 70%;
     color: grey;
 }
-/*.activity {
-    color: black;
-    border: white solid 2px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}*/
 
 .activity {
     display: inline-block;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    margin: 5px 5px 5px 5px;
 }
-.activity img {
-    display: inline-block;
-    background-color: red;
+
+.activity span {
+    font-size: 1.8em;
+
     height: 30px;
     width: 30px;
 }
-
-.activity img::after {
-    color: black;
-    content: "1";
+.notificationOff {
+    display: none;
 }
+
+.notificationOn {
+    color: white;
+    display: inline-block;
+    vertical-align: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    padding-left: 5px;
+}
+
+/*.activity div {
+    /*display: inline;*/
+    vertical-align: 5px;
+
+}*/

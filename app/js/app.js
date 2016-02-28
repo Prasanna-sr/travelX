@@ -14,14 +14,14 @@ setTimeout(function() {
       if (response.status === 'connected') {
         console.log('Logged in.');
         var accessToken = response.authResponse.accessToken;
-        //  var authObj = FB.getAuthResponse();
-         var url = 'https://graph.facebook.com/me?access_token='
+         var url = 'https://graph.facebook.com/v2.4/me?fields=id,name,picture&access_token='
           + accessToken;
  $.ajax({
       type: 'GET',
       url: url,
       success: function(data) {
-         console.log(data);
+          $('.statusPanel label').text(data.name);
+          $('.statusPanel img').attr("src", data.picture.data.url);
       }
    });
 } else {

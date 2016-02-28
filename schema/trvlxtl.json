@@ -1,0 +1,38 @@
+{
+  "sessions": [
+    {
+      "session": "trxu1",
+      "updates": [
+        {
+          "update": "Vasu liked Hotel 1 at 12:48 PM Feb 27, 2016"
+        },
+        {
+          "update": "Emily liked Hotel 1 at 12:49 PM Feb 27, 2016"
+        },
+        {
+          "update": "Vasu disliked flight 1 at 12:49 PM Feb 27, 2016"
+        },
+        {
+          "update": "Prasana disliked Hotel 1 at 12:59 PM Feb 27, 2016"
+        }
+      ]
+    },
+    {
+      "session": "trxu2",
+      "updates": [
+        {
+          "update": "John disliked flight 1 at 2:36 PM Feb 26, 2016"
+        },
+        {
+          "update": "Marcus liked Hotel 1 at 3:29 PM Feb 26, 2016"
+        },
+        {
+          "update": "Mary liked flight 2 at 4:59 PM Feb 26, 2016"
+        },
+        {
+          "update": "Andrew disliked Hotel 1 at 10:00 AM Feb 27, 2016"
+        }
+      ]
+    }
+  ]
+}

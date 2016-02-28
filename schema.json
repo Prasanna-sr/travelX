@@ -1,0 +1,42 @@
+{
+  "sessions": [
+    {
+      "session": "trxu1",
+      "resources": [
+        {
+          "resourceId": "4313",
+          "resourceType": "hotel",
+          "resourceUrl": "http://terminal2.expedia.com/x/hotels?hotelids=4313&dates=2016-05-19,2016-05-22&apikey=GsexYPAdw0stwqKBdqylck4hVhymqUlw",
+          "thumbsup": [
+            "vasu",
+            "prasanna"
+          ],
+          "thumbsdown": [
+            "john",
+            "emily",
+            "kara"
+          ]
+        }
+      ]
+    },
+    {
+      "session": "trxu2",
+      "resources": [
+        {
+          "resourceId": "4315",
+          "resourceType": "hotel",
+          "resourceUrl": "http://terminal2.expedia.com/x/hotels?hotelids=4315&dates=2016-05-19,2016-05-22&apikey=GsexYPAdw0stwqKBdqylck4hVhymqUlw",
+          "thumbsup": [
+            "john",
+            "emily",
+            "prasanna"
+          ],
+          "thumbsdown": [
+            "vasu",
+            "kara"
+          ]
+        }
+      ]
+    }
+  ]
+}

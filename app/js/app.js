@@ -28,7 +28,7 @@ setTimeout(function() {
 FB.login();
 }});
 },
-200);
+1000);
 
 $(document).ready(function() {
     //notification js

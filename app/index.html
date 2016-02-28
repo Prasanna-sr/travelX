@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TravelX</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '1694262017480360',
+				xfbml: true,
+				version: 'v2.5'
+			});
+		};
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {
+				return;
+			}
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<header>
+		<div class="titleHeader">
+			<h2> TravelX </h2>
+			<div class="statusPanel">
+				<label> Prasanna</label>
+				<div class="activity">
+					<span class="glyphicon glyphicon-bell"></span>
+					<div class="notificationOn">0</div>
+				</div>
+				<div id="notificationContainer">
+					<div id="notificationTitle">Notifications</div>
+					<div id="notificationsBody" class="notifications">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <ul class="nav nav-tabs">
+			<li role="presentation"><a href="#">Home</a></li>
+			<li role="presentation" class="active"><a href="#">Plan</a></li>
+			<li role="presentation"><a href="#">Messages</a></li>
+		</ul> -->
+
+	</header>
+	<section class="timeline">
+		<div class="line">
+			<div class="hotel">
+				<div class="names">Hotel</div>
+				<img src="../images/hotel-icon.png"></img>
+				<div class="time">March 2, 12:00 AM</div>
+			</div>
+			<div class="places">
+				<div class="names">Places</div>
+				<img src="../images/Places-icon.png"></img>
+				<div class="time">March 2, 10:00 AM</div>
+			</div>
+			<div class="restaurants">
+				<div class="names">Food&nbsp</div>
+				<img src="../images/restaurant-icon.png"></img>
+				<div class="time">March 2, 10:00 AM</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="places">
+	</section>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="close">x</span>
+		</div>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="/build/bundle.js"></script>
+</body>
+
+</html>

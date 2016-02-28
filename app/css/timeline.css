@@ -1,0 +1,52 @@
+.timeline {
+    width: 150px;
+    float: left;
+}
+
+.timeline .line {
+    margin-left: 100px;
+    height: 1000px;
+    border-left: 4px solid black;
+    position: relative;
+}
+
+.timeline .line img {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.timeline .line .time {
+    display: inline-block;
+    font-size: 0.75em;
+    font-weight: bold;
+    z-index: 2;
+    background-color: white;
+}
+
+.timeline .line .names {
+    display: inline-block;
+    margin-left: -50px;
+    font-weight: bold;
+    /*font-size: 1.5px;*/
+}
+
+
+.timeline .line .hotel {
+    margin-left: -20px;
+    position: absolute;
+    top: 150px;
+}
+
+.timeline .line .places {
+    margin-left: -20px;
+    position: absolute;
+    top: 500px;
+}
+
+
+.timeline .line .restaurants {
+    margin-left: -20px;
+    position: absolute;
+    top: 900px;
+}

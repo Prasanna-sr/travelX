@@ -1,0 +1,39 @@
+.titleHeader h2 {
+    display: inline-block;
+}
+
+.statusPanel {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-left: 70%;
+    color: grey;
+    position:relative;
+}
+
+.activity {
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+}
+
+.activity span {
+    font-size: 1.8em;
+
+    height: 30px;
+    width: 30px;
+}
+.activity div:hover {
+    cursor: pointer;
+}
+.notificationOff {
+    display: none;
+}
+
+.notificationOn {
+    color: white;
+    display: inline-block;
+    vertical-align: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    padding-left: 5px;
+}

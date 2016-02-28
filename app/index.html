@@ -13,23 +13,25 @@
 
 <body>
 	<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1694262017480360',
-      xfbml      : true,
-      version    : 'v2.5'
-    });
-  };
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '1694262017480360',
+				xfbml: true,
+				version: 'v2.5'
+			});
+		};
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-
-</script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {
+				return;
+			}
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 	<header>
 		<div class="titleHeader">
 			<h2> TravelX </h2>
@@ -38,6 +40,11 @@
 				<div class="activity">
 					<span class="glyphicon glyphicon-bell"></span>
 					<div class="notificationOn">0</div>
+				</div>
+				<div id="notificationContainer">
+					<div id="notificationTitle">Notifications</div>
+					<div id="notificationsBody" class="notifications">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -50,7 +57,7 @@
 	</header>
 
 	<section class="timeline">
-		<div class ="line">
+		<div class="line">
 			<div class="hotel">
 				<div class="names">Hotel</div>
 				<img src="../images/hotel-icon.png"></img>
@@ -66,12 +73,9 @@
 				<img src="../images/restaurant-icon.png"></img>
 				<div class="time">March 2, 10:00 AM</div>
 			</div>
-		 </div>
+		</div>
 	</section>
 	<section id="places">
-		<h2>Choose Place</h2>
-		<div class="imageTemplate">
-		</div>
 	</section>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<script src="/build/bundle.js"></script>

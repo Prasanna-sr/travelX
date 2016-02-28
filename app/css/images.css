@@ -14,6 +14,10 @@
     border-radius: 15px;
 }
 
+.image img:hover {
+    cursor: pointer;
+}
+
 .image .interest {
     border-top: grey solid 1px;
 }
@@ -25,6 +29,7 @@
     height: 25px;
     margin-right: 2px;
 }
+
 .interest img:hover {
     cursor: pointer;
 }
